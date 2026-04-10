@@ -1,0 +1,102 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GarleksTomeofKnowledge",
+				"abbreviation": "GToK",
+				"full": "Garlek's Tome of Knowledge",
+				"version": "1.0",
+				"authors": [
+					"Travis",
+					"Karl",
+					"Elliot"
+				],
+				"convertedBy": [
+					"Travis"
+				],
+				"color": "c23838",
+				"colorNight": "771d1d"
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Arcane Bullet",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You fire a bullet of pure force at a target creature or object within range. Make a ranged spell attack against the target. On hit, the target takes {@damage 2d4} force damage and the target must make a Constitution saving throw or be pushed back 10 feet, and half as much on a successful save. If they are pushed into a wall they are knocked {@condition prone}. Creatures targeted that are larger than medium are pushed back 10 feet less for every size category larger than medium."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": 1,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"At Higher Levels. When casting this spell at 2nd level or higher the damage increases by {@dice 1d4} and the distance pushed increases by 10 fett per spell slot above 1st. "
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"FMV",
+				"OBJ"
+			]
+		}
+	]
+}
