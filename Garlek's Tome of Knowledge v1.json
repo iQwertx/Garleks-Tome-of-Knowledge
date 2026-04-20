@@ -16,6 +16,18 @@
 				],
 				"color": "1f8e69",
 				"colorNight": "32d29d"
+			},
+			{
+				"json": "GarleksTomeofKnowledge",
+				"abbreviation": "GToK",
+				"full": "Garlek's Tome of Knowledge",
+				"version": "1.0.0"
+			},
+			{
+				"json": "GarleksTomeofKnowledge",
+				"abbreviation": "GToK",
+				"full": "Garlek's Tome of Knowledge",
+				"version": "1.0.0"
 			}
 		]
 	},
@@ -1455,6 +1467,316 @@
 			],
 			"miscTags": [
 				"SCL",
+				"OBJ"
+			]
+		},
+		{
+			"uniqueId": "ae8c3f49-1f8e-4e27-ace1-97ed5da50fc2",
+			"name": "Detect Life",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration, you know the location of any living creature that is not an undead creature within 60 feet of you, even through total cover. You know the type of any being whose presence you sense, but not its identity."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"s": true
+			},
+			"meta": {
+				"ritual": true
+			},
+			"areaTags": [
+				"E"
+			]
+		},
+		{
+			"uniqueId": "8fd22d11-acbe-41ff-a6bb-fd8d7a3abda7",
+			"name": "Dimensional Slash",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You brandish the weapon used in the spell’s casting and make a melee attack with it against a target you can see within 30 feet. On a hit, you are teleported to an unoccupied space within 5 feet of that creature as a dimensional rift opens for you to step through."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "T",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a melee weapon worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the melee attack deals an additional {@damage 1d8} force damage per spell slot above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"TP",
+				"AAD"
+			]
+		},
+		{
+			"uniqueId": "64c4d56f-ff96-4551-aa55-c206b2086fa7",
+			"name": "Divine Severance",
+			"level": 9,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You unleash a wave of divine energy targeted at a deity's avatar or a divine being. You make a ranged spell attack against a creature within range. On a hit, the target takes {@damage 10d10} radiant damage, and if this damage reduces the target to 0 hit points, it is utterly obliterated, leaving no trace of its existence. If the creature survives, any divine connection it has is severed for the duration, during which time it cannot use any divine powers or spells and it loses any resistances to nonmagical damage. A creature whose connection is severed can make a Wisdom saving throw at the end of each of its turns, removing the effect on a success."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a weapon blessed by a deity"
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"uniqueId": "3c54b546-3bb2-4b01-8456-3b1aed5c5e24",
+			"name": "Dowse Location",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"When you cast this spell, the material component becomes drawn to the location from which you cast this spell. For the duration, the material will be very gently drawn to this location regardless of the distance. The pulling force is just enough that a creature who holds it can faintly feel the tug. If set on natural ground, the pull will not be enough for the material to roll through dirt, sand, or clumps of grass even if the material is perfectly round.",
+				"The location initially designated by this spell assumes a sphere of physical matter 5 feet across. Thus it can track mobile objects that are beyond this diameter, such as wagons, ships, or islands floating in the sky. It cannot however track open air or shifting water. If the location is irrevocably destroyed or pulled apart, this spell ends. Detect magic or similar effects can discern that the targeted location is affected by this spell. This spell can be dispelled either by targeting the target location or the material."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an oblong piece of metal worth at least 1gp",
+					"cost": 100
+				}
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can choose for the duration to become \"until dispelled.\""
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"uniqueId": "611e8e4e-bda7-4aa3-90aa-8439bc3b1899",
+			"name": "Drought",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause an intense drought to afflict a 10-foot radius area centered on a point you choose within range. All non-magical plants in the area wither and die, and all water in the area dries up. Creatures within the area must make a Constitution saving throw or take {@damage 6d8} necrotic damage and become severely dehydrated, gaining one level of {@condition exhaustion}. On a successful save, the creature takes half as much damage and doesn't gain {@condition exhaustion}. Creatures composed entirely of water, such as a water weird or a water elemental, that are entirely inside of this spell’s radius have disadvantage on this saving throw and take double damage from this spell."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A handful of sand"
+			},
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"miscTags": [
+				"SGT",
+				"PRM",
 				"OBJ"
 			]
 		}
