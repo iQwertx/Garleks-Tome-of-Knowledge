@@ -35,8 +35,250 @@
 			"bonusAc": "+2",
 			"entries": [
 				"This adamantium shield seems to consist of a shield design used long ago. It is a full body tower shield, bearing on its front the depiction of a knight beheading a hydra.",
-				"While you are wielding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. Additionally, as a reaction to failing a save for an effect that would cause you to become {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition grappled}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}, you may activate the power of this shield. You end the conditions on you and become immune to them for 1 minute.",
+				"While you are wielding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. Additionally, as a reaction to failing a save for an effect that would cause you to become {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition grappled}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}, you may activate the power of this shield. You instead do not gain the condition(s) and you become immune to the trggering condition(s) for 1 minute.",
 				"Once you use this ability, you can not use this again until you finish a long rest."
+			]
+		}
+	],
+	"spell": [
+		{
+			"uniqueId": "751b316e-69a5-4d9c-945f-de07033663e4",
+			"name": "Agitate Wounds",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You cause the wounds of a creature to flare up with pain. A creature you can see within range makes a Constitution saving throw. On a failed save, that creature cannot regain hit points for the duration."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"uniqueId": "5898df78-de89-4558-9084-218111b38918",
+			"name": "Alter Text",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You can magically alter the text on a non-magical surface, changing the message as you wish. You can change up to two pages of text using this spell, or alter up to 2 square feet of text on a surface, such as the floor or a wall."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A bucket of Holy water"
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a slot of 2nd level or higher, you can alter the writings of magical spells. You can change the text of illusory script, what triggers a glyph of warding, a symbol, or change the rune sequence of a teleportation circle. The spell you are altering must be of the same level or lower than the slot used to cast this spell."
+					]
+				}
+			],
+			"miscTags": [
+				"PRM"
+			]
+		},
+		{
+			"uniqueId": "aa31efcd-0681-4685-adee-4508b07f4353",
+			"name": "Amanuensis",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch a book, parchment, or piece of paper and cause it to create a perfect copy on a supplied surface. The spell copies up to 250 words per minute, but it cannot copy magical writings, scrolls, explosive runes, or similar magical traps. If the spell encounters such an item, it leaves an empty space on the page. The spell cannot copy illustrations or pictures, and it cannot duplicate a spellbook."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"PRM"
+			]
+		},
+		{
+			"uniqueId": "102e974f-acc6-4b81-9da8-d74c886a22dd",
+			"name": "Arcane Bullet",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You fire a bullet of pure force at a target creature or object within range. Make a ranged spell attack against the target. On hit, the target takes {@damage 2d4} force damage and the target must make a Constitution saving throw or be pushed back 10 feet, and half as much on a successful save. If they are pushed into a wall they are knocked {@condition prone}. Creatures targeted that are larger than medium are pushed back 10 feet less for every size category larger than medium."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When casting this spell at 2nd level or higher the damage increases by {@dice 1d4} and the distance pushed increases by 10 ft per spell slot above 1st. "
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"FMV",
+				"OBJ"
 			]
 		}
 	]
