@@ -4,98 +4,39 @@
 			{
 				"json": "GarleksTomeofKnowledge",
 				"abbreviation": "GToK",
-				"full": "Garlek's Tome of Knowledge",
-				"version": "1.0",
+				"full": "Garleks Tome of Knowledge",
+				"version": "1",
 				"authors": [
 					"Travis",
 					"Karl",
-					"Elliot"
+					"Auston"
 				],
 				"convertedBy": [
 					"Travis"
-				],
-				"color": "c23838",
-				"colorNight": "771d1d"
+				]
 			}
 		]
 	},
-	"spell": [
+	"item": [
 		{
-			"name": "Arcane Bullet",
-			"level": 1,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You fire a bullet of pure force at a target creature or object within range. Make a ranged spell attack against the target. On hit, the target takes {@damage 2d4} force damage and the target must make a Constitution saving throw or be pushed back 10 feet, and half as much on a successful save. If they are pushed into a wall they are knocked {@condition prone}. Creatures targeted that are larger than medium are pushed back 10 feet less for every size category larger than medium."
-			],
+			"name": "Aegis of the Untouchable",
 			"source": "GarleksTomeofKnowledge",
-			"page": 1,
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"At Higher Levels. When casting this spell at 2nd level or higher the damage increases by {@dice 1d4} and the distance pushed increases by 10 fett per spell slot above 1st. "
-					]
-				}
+			"page": 0,
+			"referenceSources": [
+				"DrDe-TFV",
+				"HotB"
 			],
-			"damageInflict": [
-				"force"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"spellAttack": [
-				"R"
-			],
-			"savingThrow": [
-				"constitution"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"miscTags": [
-				"SGT",
-				"SCL",
-				"FMV",
-				"OBJ"
+			"baseItem": "shield|xphb",
+			"type": "S|XPHB",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+2",
+			"entries": [
+				"This adamantium shield seems to consist of a shield design used long ago. It is a full body tower shield, bearing on its front the depiction of a knight beheading a hydra.",
+				"While you are wielding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. Additionally, as a reaction to failing a save for an effect that would cause you to become {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition grappled}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}, you may activate the power of this shield. You end the conditions on you and become immune to them for 1 minute.",
+				"Once you use this ability, you can not use this again until you finish a long rest."
 			]
 		}
 	]
