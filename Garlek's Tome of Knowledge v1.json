@@ -100,7 +100,8 @@
 			],
 			"miscTags": [
 				"SGT"
-			]
+			],
+			"page": "K"
 		},
 		{
 			"uniqueId": "5898df78-de89-4558-9084-218111b38918",
@@ -159,7 +160,8 @@
 			],
 			"miscTags": [
 				"PRM"
-			]
+			],
+			"page": "T"
 		},
 		{
 			"uniqueId": "aa31efcd-0681-4685-adee-4508b07f4353",
@@ -204,7 +206,8 @@
 			],
 			"miscTags": [
 				"PRM"
-			]
+			],
+			"page": "K"
 		},
 		{
 			"uniqueId": "102e974f-acc6-4b81-9da8-d74c886a22dd",
@@ -279,6 +282,1052 @@
 				"SCL",
 				"FMV",
 				"OBJ"
+			],
+			"page": "E"
+		},
+		{
+			"uniqueId": "0ebfe946-09cb-4695-9bcf-dc635a0f6b54",
+			"name": "Beams of Radiance",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"Radiant light erupts from the ground at up to three points you can see within range, forming cylinders that are 5 feet in radius and 30 feet high. The cylinders cannot overlap. Each creature in a cylinder must make a Dexterity saving throw. On a failed save, a creature takes {@damage 3d10} radiant damage and is {@condition blinded} until the start of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition blinded}. A creature can be affected by only one cylinder."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"m": "A small, clay disk with the sun painted on it."
+			},
+			"conditionInflict": [
+				"blinded"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, increase the damage by {@dice 1d10} per spell slot above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"LGT"
+			],
+			"page": "E"
+		},
+		{
+			"uniqueId": "ed50eea6-f21a-429a-baea-a443081d0879",
+			"name": "Black Candle",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You create or destroy ambient shadows. You touch an object which becomes the source of an area of darkness or light in a 30-foot radius. The spell reduces the light level by one step, from bright light to dim light, and from dim light to darkness, or increases the light level by one step, from dim light to bright light. This spell does not stack with other magical effects and any other magical effect that adjusts darkness or light that is higher level than this spell will remove the effect in that area. Non-magical light sources cannot raise the light level in an area affected by this spell. "
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"LGT",
+				"OBS"
+			],
+			"page": "K"
+		},
+		{
+			"uniqueId": "e8dd03b0-9db6-4168-a58b-a5d8180e0cf6",
+			"name": "Blood Pour",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You point at a wounded creature that you can see within range and command its blood to surge forth. The creature must make a Constitution saving throw. On a failed save, the target takes {@damage 4d10} necrotic damage as blood sprays from its wounds, or half as much damage on a success. The spell fails if the target is not missing any hit points, or if the target does not have blood or an equivalent vital fluid."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."
+					]
+				}
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A vial of your own blood"
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL"
+			],
+			"page": "T"
+		},
+		{
+			"uniqueId": "7f150cc0-dc91-4eae-bd65-e5ee70f39a1e",
+			"name": "Angelic Hymnals",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You invoke the celestial music of a deity, channeling the power of angelic choirs to bolster your allies. When you cast this spell, choose one of the following hymnals. The chosen hymnal’s effect lasts while you maintain {@status Concentration|XPHB} on this spell and as long as the creatures affected can hear you. You can use your bonus action to change the hymnal to another hymnal or to conclude the hymn, and the spell ends if you use your bonus action to do anything else.",
+				"  Hymnal of Courage.   You and allies within 30 feet of you can’t be {@condition frightened} and gain temporary hit points equal to your spellcasting ability modifier at the start of each of their turns.",
+				"  Hymnal of Harmony.   You and allies within 30 feet of you gain advantage on saving throws that involve Intelligence, Wisdom, or Charisma.",
+				"  Hymnal of Protection.  You and allies within 30 feet of you gain a +2 bonus to AC and gain resistance to necrotic and radiant damage.",
+				"Hymnal of Swiftness.  You and allies that start their turn within 30 feet of you have their movement speed increased by 10 feet, and they can take the Dash action as a bonus action until the end of turn.",
+				"\tConcluding the hymn using your bonus action grants all affected allies a bonus to their next attack roll within the next minute equal to the number of rounds you concentrated on this spell (maximum of +10) and the spell ends. This effect is not granted if you lose {@status Concentration|XPHB} on the spell before the hymn’s conclusion."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"intelligence",
+				"wisdom",
+				"charisma"
+			],
+			"miscTags": [
+				"THP",
+				"MAC",
+				"UBA",
+				"ADV"
+			],
+			"areaTags": [
+				"E"
+			]
+		},
+		{
+			"uniqueId": "44e347b4-e686-4100-bc1f-ea666f234211",
+			"name": "Arcane Blast",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You unleash a burst of arcane force through your hand. The creature you touch must make a Dexterity saving throw. On a failed save, the target takes {@damage 6d8} force damage and is pushed 15 feet directly away from you. On a success, the target takes half as much damage and is not moved.",
+				"You are pushed 15 feet directly away from the target. This movement does not provoke opportunity attacks."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"s": true
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"uniqueId": "b3f1fa15-3c92-4d12-98de-0f5b47bb121b",
+			"name": "Bone Telling",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You spend the ten minutes of the spell throwing your carved bones and reading what they tell. Choose a creature or person you have at least heard the name of. The bones will allow you to learn details such as their alignment and race/species if you had not already known.",
+				"With a successful DC 16 Intelligence (Investigation) check, you also learn all the languages they speak, all the damage and condition immunities they possess, and (to the DMs discretion) a basic description of what the chosen target is doing at the moment of casting the spell."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"s": true,
+				"m": "Bones carved in the form of dice and/or coins"
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the cast time and duration reduce to 1 minute instead."
+					]
+				}
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"uniqueId": "cb206284-522a-4f1e-a87a-7c3064911ff5",
+			"name": "Borrow Voice",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch a creature and borrow their voice. A non-willing creature can make a wisdom saving throw to resist this spell. For the duration your voice perfectly mimics the voice of the creature you touched. You can mimic verbal mannerisms such as accents and stutters perfectly as if you were a native speaker. This spell does not let you learn a creature's language however. "
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "E",
+			"components": {
+				"s": true
+			},
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"uniqueId": "24826dea-153b-4a43-8c8d-bf16656f88db",
+			"name": "Burst Mark",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You attempt to curse a creature you can see within range. A fiery symbol is carved into its skin or clothes. For the duration, if the creature takes any fire damage, the symbol is detonated, dealing an additional {@damage 3d10} fire damage and the spell ends."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "T",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage of this spell increases by {@dice 1d10} for each slot above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"AAD"
+			]
+		},
+		{
+			"uniqueId": "ac7ad4bd-3b93-43e8-8c02-25ca2397aa0b",
+			"name": "Color Wheel",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a vibrant, spinning wheel of shifting colors at a point you can see within range. Each creature within a 15-foot radius of the point that can see the wheel must make a Wisdom saving throw. Creatures that are immune to being {@condition charmed} automatically succeed on this saving throw.",
+				"On a failed save, a creature is {@condition charmed} by the spell for the duration. While {@condition charmed} in this way, the creature is {@condition incapacitated} and must use all its movement on each of its turns to move toward the wheel by the safest available route, stopping if it moves within 5 feet of it or if it cannot move.",
+				"At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success. The effect also ends for a creature if it takes any damage or if another creature uses its action to shake it out of its stupor."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "E",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A bottle of fine paints"
+			},
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"miscTags": [
+				"SGT",
+				"FMV"
+			]
+		},
+		{
+			"uniqueId": "072be34b-c008-49f1-8079-6107cc375a34",
+			"name": "Concealment",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You render a single non-magical item of size small or smaller completely undetectable to the naked eye and simple searches to keep it on your person. This spell has no effect on magical searches however."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "T",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher you may hide one additional mundane item of your choice per spell slot above 1st."
+					]
+				}
+			],
+			"miscTags": [
+				"SCT"
+			]
+		},
+		{
+			"uniqueId": "4a44c140-3dcf-4c7e-8416-cd6cbfce782e",
+			"name": "Conjure Ammunition",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"In your hand or in an open container on your person, you create up to 5 pieces of ammunition or up to 5 darts. The created items are magical for the purpose of overcoming damage resistance or immunity, but have no other special properties. Possibilities for ammunition include arrows, bolts, bullets, and needles.",
+				"As part of the bonus action used to cast this spell, you can choose to consume the listed material components. If you do so, the material component is consumed by the spell, and the ammunition becomes nonmagical at the end of the duration. If you do not, the ammunition vanishes at the end of the duration."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "5gp worth of ammunition parts",
+					"cost": 500
+				}
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you create an additional 5 darts or pieces of ammunition for each spell slot level above 1st."
+					]
+				}
+			],
+			"miscTags": [
+				"PRM"
+			]
+		},
+		{
+			"uniqueId": "068446eb-3a2b-4632-bd3a-beb0a96be8b9",
+			"name": "Conjure Barricade",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You conjure a miniature wall on the ground at a point you can see within range. You can make the wall up to 15 feet long, 3 feet high, and 1 foot thick. The wall vanishes when the spell ends."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "T",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A smooth stone"
+			}
+		},
+		{
+			"uniqueId": "061a2678-26f8-4403-b5db-1f89c66c0ac4",
+			"name": "Conjure Thundering Bell",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"A massive 5-foot-diameter bell appears hovering just off the ground in an unoccupied space of your choice within range and lasts for the duration. The first time the bell enters within 10 feet of a creature each round it must make a Constitution saving throw, taking {@damage 2d6} thunder damage on a failed save, or half as much on a success. On a failed save, a creature is {@condition deafened} until the start of your next turn.",
+				"\tAs a bonus action, you can move the bell up to 15 feet. When you move the bell, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The bell does not move fast enough to ram into creatures or objects to hurt them."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"deafened"
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"miscTags": [
+				"UBA"
+			]
+		},
+		{
+			"uniqueId": "4eeb1b58-cf11-42f2-90b0-13b7c7a36986",
+			"name": "Corrosive Exhalation",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You breathe out a caustic wave of red dust. All objects within a 60-foot cone which are not worn or carried degrade, being covered in a thick layer of rust for the duration. While coated, armor has its base AC lowered by 1, and weapons provide a -1 to attack and damage rolls. Each creature within the cone must make a Dexterity saving throw. On a failed save, all equipment they are carrying or wielding is similarly degraded."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "A",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A piece of rusted metal"
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the reduction increases by 1 for every two slot levels above 3rd."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"MT",
+				"N"
+			],
+			"miscTags": [
+				"SCL",
+				"MAC",
+				"OBJ"
+			]
+		},
+		{
+			"uniqueId": "7faa984d-d79d-4dae-9577-984866dd5e28",
+			"name": "Crown of Sacrifice",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration of the spell whenever you restore hit points to a creature with a spell slot you may spend one of your hit dice to have any creature you heal this way gain the maximum number of hit points possible."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "T",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a miniature carved wooden crown"
+			},
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"uniqueId": "07f73b23-d991-46a6-bf55-58342599b32b",
+			"name": "Crowstorm",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose a point you can see within range, you teleport to that point as a murder of crows flies wildly around you in a 10 foot emanation. Any creatures of your choice that start their turn in the crowstorm must make a Dexterity saving throw or take {@damage 6d8} piercing damage, or half as much on a successful save. Additionally, {@status surprised|XPHB} creatures that fail the saving throw are also {@condition frightened} of you until the start of your next turn. The crowstorm moves with you, and if it enters an enemy’s space for the first time in a turn, they must make the saving throw."
+			],
+			"source": "GarleksTomeofKnowledge",
+			"page": "K",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"E"
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
 			]
 		}
 	]
