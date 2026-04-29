@@ -4877,8 +4877,13 @@
         "amount": 30
       }
     },
+ "components": {
+      "v": true,
+      "s": true,
+	 
+    },
     "entries": [
-      "Casting components: V, S You create a white shining beacon of truelight. A white shining light floats over your head for the duration, shedding bright light in a 15-foot emanation and dim light for an additional 15 feet. Any magical illusions of 3rd level or lower that overlap with the bright light of your emanation are instantly dispelled. Additionally any attempt to cast an illusion spell of 3rd level or lower within your emanation automatically fails."
+      "You create a white shining beacon of truelight. A white shining light floats over your head for the duration, shedding bright light in a 15-foot emanation and dim light for an additional 15 feet. Any magical illusions of 3rd level or lower that overlap with the bright light of your emanation are instantly dispelled. Additionally any attempt to cast an illusion spell of 3rd level or lower within your emanation automatically fails."
     ],
     "entriesHigherLevel": [
       {
