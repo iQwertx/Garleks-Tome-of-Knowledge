@@ -2113,7 +2113,7 @@
 			],
 			"entries": [
 				"You unleash a wave of elemental magic in a 5-foot Emanation around you. You may choose the damage type to be one of the following: Fire, Cold, Acid, or Lightning damage. Each creature in range must make a Constitution saving throw or take {@damage 1d4} damage of the chosen type. ",
-				"Cantrip Upgrade The spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+				"<b><i>Cantrip Upgrade.</b></i> The spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -4380,7 +4380,7 @@
 			],
 			"entries": [
 				"You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take {@damage 3d4} poison damage. ",
-				" Cantrip Upgrade.This spell's damage increases by {@dice 3d4} when you reach 5th Level ({@dice 6d4}), 11th level ({@dice 9d4}), and 17th level ({@dice 12d4})."
+				" <b><i>Cantrip Upgrade.</b></i> This spell's damage increases by {@dice 3d4} when you reach 5th Level ({@dice 6d4}), 11th level ({@dice 9d4}), and 17th level ({@dice 12d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -4745,7 +4745,7 @@
 			],
 			"entries": [
 				"You harness a piece of the frozen void, causing a small spatial distortion on your person. You instantly teleport one object in your possession to your hand. Casting this spell has observable phenomena, producing a temporary icy sensation within 10 feet, and a shattering sound that can be heard within 30 feet. Due to the brevity of the spell, no cold damage is taken or dealt when it is cast. When you summon a weapon in this way its next attack deals an additional {@damage 1d4} cold damage. ",
-				" Cantrip Upgrade. This spell's damage increases by {@dice 1d4} when you reach 5th Level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+				" <b><i>Cantrip Upgrade.</b></i> This spell's damage increases by {@dice 1d4} when you reach 5th Level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"classes": {
 				"fromClassList": [
