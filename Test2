@@ -541,10 +541,10 @@
 			},
 			"entries": [
 				"You invoke the celestial music of a deity, channeling the power of angelic choirs to bolster your allies. When you cast this spell, choose one of the following hymnals. The chosen hymnal’s effect lasts while you maintain {@status Concentration|XPHB} on this spell and as long as the creatures affected can hear you. You can use your bonus action to change the hymnal to another hymnal or to conclude the hymn, and the spell ends if you use your bonus action to do anything else.",
-				"  <b>Hymnal of Courage.</b>   You and allies within 30 feet of you can’t be {@condition frightened} and gain temporary hit points equal to your spellcasting ability modifier at the start of each of their turns.",
-				"  <b>Hymnal of Harmony.</b>   You and allies within 30 feet of you gain advantage on saving throws that involve Intelligence, Wisdom, or Charisma.",
-				"  <b>Hymnal of Protection.</b>  You and allies within 30 feet of you gain a +2 bonus to AC and gain resistance to necrotic and radiant damage.",
-				" <b>Hymnal of Swiftness.</b>  You and allies that start their turn within 30 feet of you have their movement speed increased by 10 feet, and they can take the Dash action as a bonus action until the end of turn.",
+				"  Hymnal of Courage.   You and allies within 30 feet of you can’t be {@condition frightened} and gain temporary hit points equal to your spellcasting ability modifier at the start of each of their turns.",
+				"  Hymnal of Harmony.   You and allies within 30 feet of you gain advantage on saving throws that involve Intelligence, Wisdom, or Charisma.",
+				"  Hymnal of Protection.  You and allies within 30 feet of you gain a +2 bonus to AC and gain resistance to necrotic and radiant damage.",
+				" Hymnal of Swiftness.  You and allies that start their turn within 30 feet of you have their movement speed increased by 10 feet, and they can take the Dash action as a bonus action until the end of turn.",
 				"\tConcluding the hymn using your bonus action grants all affected allies a bonus to their next attack roll within the next minute equal to the number of rounds you concentrated on this spell (maximum of +10) and the spell ends. This effect is not granted if you lose {@status Concentration|XPHB} on the spell before the hymn’s conclusion."
 			],
 			"source": "GarleksTomeofKnowledge",
@@ -1310,7 +1310,7 @@
 				]
 			},
 			"entries": [
-				"Choose a point you can see within range, you teleport to that point as a murder of crows flies wildly around you in a 10 foot emanation. Any creatures of your choice that start their turn in the crowstorm must make a Dexterity saving throw or take {@damage 6d8} piercing damage, or half as much on a successful save. Additionally, {@status surprised|XPHB} creatures that fail the saving throw are also {@condition frightened} of you until the start of your next turn. The crowstorm moves with you, and if it enters an enemy’s space for the first time in a turn, they must make the saving throw."
+				"Choose a point you can see within range, you teleport to that point as a murder of crows flies wildly around you in a 10-foot Emanation. Any creatures of your choice that start their turn in the crowstorm must make a Dexterity saving throw or take {@damage 6d8} piercing damage, or half as much on a successful save. Additionally, {@status surprised|XPHB} creatures that fail the saving throw are also {@condition frightened} of you until the start of your next turn. The crowstorm moves with you, and if it enters an enemy’s space for the first time in a turn, they must make the saving throw."
 			],
 			"source": "GarleksTomeofKnowledge",
 			"page": "K",
@@ -1810,7 +1810,7 @@
 				}
 			],
 			"entries": [
-				"You perform a ritual calling upon ancestral spirits to ward a willing creature you touch. For the duration, the first time a creature makes an attack roll against the warded creature, the attacking creature must make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses regardless of the roll, the attacker takes 4d8 necrotic or psychic damage (your choice when you cast the spell), and its speed is reduced by 15 feet until the end of its next turn. On a successful save, the attack resolves as normal and this spell ends."
+				"You perform a ritual calling upon ancestral spirits to ward a willing creature you touch. For the duration, the first time a creature makes an attack roll against the warded creature, the attacking creature must make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses regardless of the roll, the attacker takes {@damage 4d8} Necrotic or Psychic damage (your choice when you cast the spell), and its speed is reduced by 15 feet until the end of its next turn. On a successful save, the attack resolves as normal and this spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1828,7 +1828,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"page": "K"
 		},
 		{
 			"uniqueId": "99c7677f-74aa-40bc-b22e-a035d2160eae",
@@ -2113,7 +2114,7 @@
 			],
 			"entries": [
 				"You unleash a wave of elemental magic in a 5-foot Emanation around you. You may choose the damage type to be one of the following: Fire, Cold, Acid, or Lightning damage. Each creature in range must make a Constitution saving throw or take {@damage 1d4} damage of the chosen type. ",
-				"<b><i>Cantrip Upgrade.</b></i> The spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+				"Cantrip Upgrade. The spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2312,7 +2313,8 @@
 				}
 			],
 			"entries": [
-				"You conjure luminous chains that lash out at a creature or object within range. Choose a Large or smaller creature, or an object that isn’t being worn or carried. If the target is a creature, it must succeed on a Strength saving throw or take 1d8 bludgeoning damage and be Restrained for the duration At the end of each of its turns, the target can repeat the saving throw, ending the effect on a success. If you target an object, the chains securely bind it in place for the duration."
+				"You conjure luminous chains that lash out at a creature or object within range. Choose a Large or smaller creature, or an object that isn’t being worn or carried. If the target is a creature, it must succeed on a Strength saving throw or take {@damage 1d8} Bludgeoning damage and be {@condition Restrained|XPHB} for the duration. ",
+				"At the end of each of its turns, the target can repeat the saving throw, ending the effect on a success. If you target an object, the chains securely bind it in place for the duration."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2329,7 +2331,24 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"page": "T",
+			"conditionInflict": [
+				"restrained"
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"OBJ"
+			]
 		},
 		{
 			"uniqueId": "66fdee3d-fbd4-4a33-b16a-39a10ddb8841",
@@ -2367,7 +2386,8 @@
 				}
 			],
 			"entries": [
-				"During the casting of this spell, you place your heart in a container to keep it safe. Doing this does not affect your health in any way. For the duration, you are immune to attacks to pierce the heart, and anytime you take damage from non-magical attacks, reduce that damage by your Intelligence score. If you are away from your heart when this spell’s duration ends, you die instantly. This spell's effects become permanent by casting this spell every day for one year."
+				"During the casting of this spell, you place your heart in a container to keep it safe. Doing this does not affect your health in any way. For the duration, you are immune to attacks to pierce the heart, and anytime you take damage from non-magical attacks, reduce that damage by your Intelligence score. If you are away from your heart when this spell’s duration ends, you die instantly. ",
+				"This spell's effects become permanent by casting this spell every day for one year."
 			],
 			"classes": {
 				"fromClassList": [
@@ -2376,7 +2396,15 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"page": "K",
+			"miscTags": [
+				"SCL",
+				"PIR"
+			],
+			"areaTags": [
+				"ST"
+			]
 		},
 		{
 			"uniqueId": "f7b44787-9e32-4225-9db8-5e842e22a498",
@@ -3997,7 +4025,7 @@
 				}
 			],
 			"entries": [
-				"You read a fortune using your deck of tarot cards. You draw 3 random cards from the deck, you may choose to keep one card. The card disappears after using the card, after casting the spell again, or after 24 hours. Any creature holding the card may expend it to invoke its power (listed below.)",
+				"You read a fortune using your deck of tarot cards. You draw 3 random cards from the deck; you may choose to keep one card. The card disappears after using the card, after casting the spell again, or after 24 hours. Any creature holding the card may expend it to invoke its power (listed below.)",
 				"The Fool: When you would be hit by an attack, you may use this card as a reaction to make that attack miss. ",
 				"The Magician: You may use this card as a bonus action to gain advantage on your next attack roll. ",
 				"The High Priestess: You may use this card as a bonus action to double your proficiency bonus on one skill check for 8 hours. ",
@@ -4070,7 +4098,8 @@
 			],
 			"savingThrow": [
 				"wisdom"
-			]
+			],
+			"page": "E"
 		},
 		{
 			"uniqueId": "3502dde7-da0b-4864-b4fb-ecf4b7d66768",
@@ -4380,7 +4409,7 @@
 			],
 			"entries": [
 				"You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take {@damage 3d4} poison damage. ",
-				" <b><i>Cantrip Upgrade.</b></i> This spell's damage increases by {@dice 3d4} when you reach 5th Level ({@dice 6d4}), 11th level ({@dice 9d4}), and 17th level ({@dice 12d4})."
+				" Cantrip Upgrade. This spell's damage increases by {@dice 3d4} when you reach 5th Level ({@dice 6d4}), 11th level ({@dice 9d4}), and 17th level ({@dice 12d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -4745,7 +4774,7 @@
 			],
 			"entries": [
 				"You harness a piece of the frozen void, causing a small spatial distortion on your person. You instantly teleport one object in your possession to your hand. Casting this spell has observable phenomena, producing a temporary icy sensation within 10 feet, and a shattering sound that can be heard within 30 feet. Due to the brevity of the spell, no cold damage is taken or dealt when it is cast. When you summon a weapon in this way its next attack deals an additional {@damage 1d4} cold damage. ",
-				" <b><i>Cantrip Upgrade.</b></i> This spell's damage increases by {@dice 1d4} when you reach 5th Level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+				" Cantrip Upgrade. This spell's damage increases by {@dice 1d4} when you reach 5th Level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -5036,6 +5065,9 @@
 			],
 			"areaTags": [
 				"ST"
+			],
+			"conditionInflict": [
+				"invisible"
 			]
 		},
 		{
