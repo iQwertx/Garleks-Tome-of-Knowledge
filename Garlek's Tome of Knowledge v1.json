@@ -4859,60 +4859,6 @@
     }
   },
   {
-    "uniqueId": "763e8d56-f7cc-4707-a6ad-7141d576f225",
-    "name": "Truelight Beacon",
-    "source": "GarleksTomeofKnowledge",
-    "level": 3,
-    "school": "A",
-    "time": [
-      {
-        "number": 1,
-        "unit": "action"
-      }
-    ],
-    "range": {
-      "type": "radius",
-      "distance": {
-        "type": "feet",
-        "amount": 30
-      }
-    },
- "components": {
-      "v": true,
-      "s": true 
-    },
-    "duration": [
-      {
-        "type": "timed",
-        "duration": {
-          "type": "minute",
-          "amount": 10
-        },
-        "concentration": true
-      }
-    ],
-    "entries": [
-      "You create a white shining beacon of truelight. A white shining light floats over your head for the duration, shedding bright light in a 15-foot emanation and dim light for an additional 15 feet. Any magical illusions of 3rd level or lower that overlap with the bright light of your emanation are instantly dispelled. Additionally any attempt to cast an illusion spell of 3rd level or lower within your emanation automatically fails."
-    ],
-    "entriesHigherLevel": [
-      {
-        "type": "entries",
-        "name": "Using a Higher-Level Spell Slot",
-        "entries": [
-          "When you cast this spell using a spell slot of 4th level or higher, the maximum level of illusion this spell dispels and suppresses increases by 1 for each slot level above 3rd."
-        ]
-      }
-    ],
-    "classes": {
-      "fromClassList": [
-        {
-          "name": "Cleric",
-          "source": "XPHB"
-        }
-      ]
-    }
-  },
-  {
     "uniqueId": "e9de01bf-3c23-42d5-9338-e5d9816e0eb5",
     "name": "Uncanny Outfitting",
     "source": "GarleksTomeofKnowledge",
