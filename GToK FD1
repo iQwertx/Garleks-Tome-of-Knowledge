@@ -540,9 +540,9 @@
       },
       "entries": [
         "You invoke the celestial music of a deity, channeling the power of angelic choirs to bolster your allies. When you cast this spell, choose one of the following hymnals. The chosen hymnal’s effect lasts while you maintain {@status Concentration|XPHB} on this spell and as long as the creatures affected can hear you. You can use your bonus action to change the hymnal to another hymnal or to conclude the hymn, and the spell ends if you use your bonus action to do anything else.",
-        "  Hymnal of Courage.   You and allies within 30 feet of you can’t be {@condition frightened} and gain temporary hit points equal to your spellcasting ability modifier at the start of each of their turns.",
-        "  Hymnal of Harmony.   You and allies within 30 feet of you gain advantage on saving throws that involve Intelligence, Wisdom, or Charisma.",
-        "  Hymnal of Protection.  You and allies within 30 feet of you gain a +2 bonus to AC and gain resistance to necrotic and radiant damage.",
+        "  <b>Hymnal of Courage.</b>   You and allies within 30 feet of you can’t be {@condition frightened} and gain temporary hit points equal to your spellcasting ability modifier at the start of each of their turns.",
+        "  <b>Hymnal of Harmony.</b>   You and allies within 30 feet of you gain advantage on saving throws that involve Intelligence, Wisdom, or Charisma.",
+        "  <b>Hymnal of Protection.</b>  You and allies within 30 feet of you gain a +2 bonus to AC and gain resistance to necrotic and radiant damage.",
         "Hymnal of Swiftness.  You and allies that start their turn within 30 feet of you have their movement speed increased by 10 feet, and they can take the Dash action as a bonus action until the end of turn.",
         "\tConcluding the hymn using your bonus action grants all affected allies a bonus to their next attack roll within the next minute equal to the number of rounds you concentrated on this spell (maximum of +10) and the spell ends. This effect is not granted if you lose {@status Concentration|XPHB} on the spell before the hymn’s conclusion."
       ],
@@ -1616,7 +1616,15 @@
       "classes": {
         "fromClassList": [
           {
-            "name": "Bard",
+            "name": "Cleric",
+            "source": "XPHB"
+          },
+          {
+            "name": "Druid",
+            "source": "XPHB"
+          },
+          {
+            "name": "Warlock",
             "source": "XPHB"
           }
         ]
@@ -1800,7 +1808,7 @@
         }
       ],
       "entries": [
-        "You perform a ritual calling upon ancestral spirits to ward a willing creature you touch. For the duration, the first time a creature makes an attack roll against the warded creature, the attacking creature must make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses regardless of the roll, the attacker takes 4d8 necrotic or psychic damage (your choice when you cast the spell), and its speed is reduced by 15 feet until the end of its next turn. On a successful save, the attack resolves as normal and this spell ends."
+        "You perform a ritual calling upon ancestral spirits to ward a willing creature you touch. For the duration, the first time each turn that a creature makes an attack roll against the warded creature, the attacking creature must make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses regardless of the roll, the attacker takes 4d8 necrotic or psychic damage (your choice when you cast the spell), and its speed is reduced by 15 feet until the end of its next turn. On a successful save, the attack resolves as normal and this spell ends."
       ],
       "entriesHigherLevel": [
         {
