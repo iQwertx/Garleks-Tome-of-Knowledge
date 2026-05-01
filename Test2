@@ -4265,7 +4265,10 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": true
+				"m": {
+					"text": "A handful of fire ants and a glass sculpture of a humanoid worth 20gp",
+					"cost": 2500
+				}
 			},
 			"duration": [
 				{
@@ -4278,7 +4281,7 @@
 				}
 			],
 			"entries": [
-				"and a glass sculpture of a humanoid worth 20gp) You envelop yourself in a coat of acid. Globules of acid spill down the length of your body for the duration. The acid covering does not harm the caster and doesn’t impede any normal actions. A creature that is touching you or that hits you with a melee attack while being within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 12d4} acid damage, or half as much on a successful save. Additionally, any melee attacks you make deal an additional {@damage 4d4} acid damage. ",
+				"You envelop yourself in a coat of acid. Globules of acid spill down the length of your body for the duration. The acid covering does not harm the caster and doesn’t impede any normal actions. A creature that is touching you or that hits you with a melee attack while being within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 12d4} acid damage, or half as much on a successful save. Additionally, any melee attacks you make deal an additional {@damage 4d4} acid damage. ",
 				"This spell’s effects are negated if covered in water, ending the spell prematurely if fully submerged or drenched."
 			],
 			"entriesHigherLevel": [
